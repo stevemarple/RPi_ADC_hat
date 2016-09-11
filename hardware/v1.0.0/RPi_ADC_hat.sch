@@ -3475,7 +3475,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="1M"/>
-<part name="R10" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="330R"/>
+<part name="R10" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="560R"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="SteveMarple" deviceset="DIODE" device="SOT23-1-3-HAND" value="BAS21"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
@@ -3483,7 +3483,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="Q1" library="SteveMarple" deviceset="FET-N-TYPE" device="SOT223-HAND" value="FDT439N"/>
 <part name="C19" library="SteveMarple" deviceset="C-EU" device="1206-HAND" value="1u"/>
 <part name="R13" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="1M"/>
-<part name="R11" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="330R"/>
+<part name="R11" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="560R"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="SteveMarple" deviceset="DIODE" device="SOT23-1-3-HAND" value="BAS21"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -3509,7 +3509,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="C11" library="SteveMarple" deviceset="C-EU" device="1206-HAND" value="100p"/>
 <part name="C12" library="SteveMarple" deviceset="C-EU" device="1206-HAND" value="100p"/>
 <part name="C13" library="SteveMarple" deviceset="C-EU" device="1206-HAND" value="100p"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device="" value="I2C ADDRESS"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-2X3" device="" value="I2C ADDRESS"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="SteveMarple" deviceset="AVCC" device=""/>
 <part name="U1" library="SteveMarple" deviceset="TC1262" device="SOT223-HAND" value="MCP1790"/>
@@ -3543,10 +3543,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="3k9"/>
 <part name="R9" library="SteveMarple" deviceset="RESISTOR" device="1206-HAND" value="3k9"/>
-<part name="JP2" library="SparkFun" deviceset="JUMPER-2" device="PTH" value="PROG"/>
+<part name="JP3" library="SparkFun" deviceset="JUMPER-2" device="PTH" value="PROG"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="SteveMarple" deviceset="RESISTOR" device="1210-HAND" value="4k7"/>
-<part name="JP3" library="SparkFun" deviceset="JUMPER-3" device="PTH" value="I2C VIN"/>
+<part name="JP1" library="SparkFun" deviceset="JUMPER-3" device="PTH" value="I2C VIN"/>
 <part name="U$6" library="SteveMarple" deviceset="PAD" device=""/>
 <part name="U$7" library="SteveMarple" deviceset="PAD" device=""/>
 <part name="U$8" library="SteveMarple" deviceset="PAD" device=""/>
@@ -3613,7 +3613,7 @@ resistor</text>
 <instance part="C11" gate="G$1" x="-73.66" y="0"/>
 <instance part="C12" gate="G$1" x="-63.5" y="0"/>
 <instance part="C13" gate="G$1" x="-53.34" y="0"/>
-<instance part="JP1" gate="A" x="40.64" y="-45.72"/>
+<instance part="JP2" gate="A" x="40.64" y="-45.72"/>
 <instance part="GND10" gate="1" x="58.42" y="-60.96"/>
 <instance part="P+8" gate="1" x="58.42" y="-30.48"/>
 <instance part="U1" gate="G$1" x="134.62" y="83.82"/>
@@ -3646,7 +3646,7 @@ resistor</text>
 <instance part="C2" gate="G$1" x="93.98" y="76.2"/>
 <instance part="C1" gate="G$1" x="38.1" y="76.2"/>
 <instance part="R3" gate="G$1" x="83.82" y="73.66" rot="R90"/>
-<instance part="JP3" gate="G$1" x="119.38" y="144.78"/>
+<instance part="JP1" gate="G$1" x="119.38" y="144.78"/>
 <instance part="U$6" gate="G$1" x="177.8" y="48.26"/>
 <instance part="U$7" gate="G$1" x="187.96" y="48.26"/>
 <instance part="U$8" gate="G$1" x="198.12" y="48.26"/>
@@ -3779,13 +3779,13 @@ resistor</text>
 <wire x1="-73.66" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="JP2" gate="A" pin="6"/>
 <wire x1="45.72" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="58.42" y1="-48.26" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="58.42" y="-55.88"/>
 <wire x1="58.42" y1="-55.88" x2="58.42" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="JP2" gate="A" pin="5"/>
 <wire x1="38.1" y1="-48.26" x2="33.02" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-48.26" x2="33.02" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-55.88" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
@@ -3979,7 +3979,7 @@ resistor</text>
 <segment>
 <label x="106.68" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <wire x1="119.38" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4066,13 +4066,13 @@ resistor</text>
 <pinref part="X2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="2"/>
 <wire x1="45.72" y1="-43.18" x2="58.42" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="AVCC"/>
 <wire x1="58.42" y1="-43.18" x2="58.42" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="58.42" y="-35.56"/>
 <wire x1="58.42" y1="-35.56" x2="58.42" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
 <wire x1="38.1" y1="-43.18" x2="33.02" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-43.18" x2="33.02" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-35.56" x2="58.42" y2="-35.56" width="0.1524" layer="91"/>
@@ -4196,13 +4196,13 @@ resistor</text>
 <pinref part="U4" gate="A" pin="ADR0"/>
 <wire x1="55.88" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-12.7" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="3"/>
 <wire x1="30.48" y1="-45.72" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP2" gate="A" pin="4"/>
 <wire x1="45.72" y1="-45.72" x2="53.34" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-45.72" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="ADR1"/>
@@ -4250,7 +4250,7 @@ resistor</text>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91" style="shortdash"/>
 <junction x="124.46" y="88.9"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="124.46" y1="142.24" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4290,7 +4290,7 @@ resistor</text>
 </net>
 <net name="I2C_VIN" class="1">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="142.24" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
@@ -4342,7 +4342,7 @@ so that BJT could be used.</text>
 <instance part="GND14" gate="1" x="254" y="144.78"/>
 <instance part="R8" gate="G$1" x="233.68" y="147.32" rot="R90"/>
 <instance part="R9" gate="G$1" x="243.84" y="147.32" rot="R90"/>
-<instance part="JP2" gate="A" x="226.06" y="129.54" rot="R270"/>
+<instance part="JP3" gate="A" x="226.06" y="129.54" rot="R270"/>
 <instance part="GND15" gate="1" x="223.52" y="121.92"/>
 </instances>
 <busses>
@@ -4397,7 +4397,7 @@ so that BJT could be used.</text>
 <wire x1="254" y1="147.32" x2="254" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="223.52" y1="127" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -4522,7 +4522,7 @@ so that BJT could be used.</text>
 <pinref part="U7" gate="G$1" pin="WP"/>
 <wire x1="223.52" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <junction x="223.52" y="139.7"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="JP3" gate="A" pin="1"/>
 <wire x1="223.52" y1="139.7" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
