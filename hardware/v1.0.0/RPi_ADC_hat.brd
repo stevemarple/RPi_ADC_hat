@@ -934,7 +934,7 @@ design rules under a new name.</description>
 </element>
 <element name="U6" library="SteveMarple" package="SOT23-3-HAND" value="LM61 *" x="16.51" y="20.525" smashed="yes" rot="MR270">
 <attribute name="NAME" x="13.97" y="20.955" size="1.016" layer="26" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="13.97" y="19.685" size="1.016" layer="28" rot="SMR0"/>
+<attribute name="VALUE" x="13.97" y="19.685" size="1.016" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="X1" library="SteveMarple" package="RJ11-6" value="I2C" x="43.815" y="7.62" smashed="yes">
 <attribute name="NAME" x="46.355" y="19.05" size="1.27" layer="25" ratio="10"/>
