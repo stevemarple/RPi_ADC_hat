@@ -3564,20 +3564,29 @@ always-on operation</text>
 <wire x1="137.922" y1="115.57" x2="144.018" y2="115.57" width="0.1524" layer="94"/>
 <wire x1="137.922" y1="115.57" x2="139.192" y2="116.078" width="0.1524" layer="94"/>
 <wire x1="139.192" y1="115.062" x2="137.922" y2="115.57" width="0.1524" layer="94"/>
-<text x="-144.78" y="45.72" size="3.81" layer="91">Raspberry Pi header</text>
-<text x="43.18" y="170.18" size="5.08" layer="91" align="bottom-center">Raspberry Pi Camera Controller</text>
-<text x="101.6" y="53.34" size="2.54" layer="91">AVcc supply</text>
+<text x="43.18" y="170.18" size="5.08" layer="94" align="bottom-center">Raspberry Pi ADC hat</text>
+<text x="101.6" y="53.34" size="3.81" layer="94" ratio="10">AVcc supply</text>
 <text x="48.26" y="88.9" size="1.778" layer="91">Option to not fit a
 DC-DC converter</text>
 <text x="121.92" y="68.58" size="1.778" layer="91">Tantalum</text>
 <text x="172.72" y="68.58" size="1.778" layer="91">Tantalum</text>
-<text x="83.82" y="93.98" size="1.778" layer="91">Optional load
-resistor</text>
+<text x="83.82" y="93.98" size="1.778" layer="91">Optional load resistor
+for DC-DC converter</text>
 <wire x1="88.9" y1="92.71" x2="88.9" y2="77.724" width="0.1524" layer="94"/>
 <wire x1="88.9" y1="77.724" x2="85.09" y2="77.724" width="0.1524" layer="94"/>
 <wire x1="85.09" y1="77.724" x2="87.63" y2="76.962" width="0.1524" layer="94"/>
 <wire x1="85.09" y1="77.724" x2="87.63" y2="78.486" width="0.1524" layer="94"/>
 <wire x1="87.63" y1="76.962" x2="87.63" y2="78.486" width="0.1524" layer="94"/>
+<text x="-142.24" y="-63.5" size="3.81" layer="94" ratio="10">1 wire interface</text>
+<text x="134.62" y="-30.48" size="3.81" layer="94" ratio="10">I2C level shifting</text>
+<text x="-5.08" y="-58.42" size="3.81" layer="94" ratio="10">ADC</text>
+<text x="-139.7" y="45.72" size="3.81" layer="94" ratio="10">Raspberry Pi header</text>
+<text x="187.96" y="38.1" size="1.778" layer="91">Test pins</text>
+<text x="129.54" y="91.44" size="1.778" layer="91">Option to not fit a
+linear regulator</text>
+<text x="157.48" y="129.54" size="1.778" layer="91">I2C connector, wired for
+AuroraWatchNet magnetometer
+sensors but using RJ11</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-172.72" y="-76.2"/>
@@ -4308,6 +4317,7 @@ so that BJT could be used.</text>
 so that BJT could be used.</text>
 <text x="330.962" y="4.318" size="2.54" layer="94">Steve Marple</text>
 <text x="328.422" y="14.478" size="2.54" layer="94">1.0.0</text>
+<text x="205.74" y="101.6" size="3.81" layer="94" ratio="10">HAT EEPROM</text>
 </plain>
 <instances>
 <instance part="R12" gate="G$1" x="48.26" y="43.18" rot="R90"/>
