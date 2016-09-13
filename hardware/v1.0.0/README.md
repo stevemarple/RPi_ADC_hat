@@ -69,7 +69,7 @@ differential input can be grounded by fitting a zero ohm resistor
 instead. Channel 4 is wired as single-ended input only.
 
 
-### Analogue board tempeerature
+### Analogue board temperature
 
 If channel 4 of the onboard ADC is not used then the circuit board
 temperature can be monitored by fitting an LM61BIM3 or LM61CIM3
@@ -128,7 +128,7 @@ first, then the surface mount resistors and capacitors. Then solder
 the voltage regulator (U1) and FETs (Q1, Q2). If any components are to
 be soldered to the underside turn over and solder those. Then add the
 DC-DC converter (U2), the jumper blocks and then the
-connectors. Remeber that the 40 pin connector is fitted to the
+connectors. Remember that the 40 pin connector is fitted to the
 underside (solder from top-side). If any link wires are to be
 installed add them last, they provide the ability to test parts of the
 circuit separately.
