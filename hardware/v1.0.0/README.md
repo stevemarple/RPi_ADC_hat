@@ -50,6 +50,11 @@ circumstances should a DC-DC converter be fitted and its link wire.
 It is also possible to use an external supply instead of the DC-DC
 converter by fitting a Molex 22-23-2041 connector in its place.
 
+If it is found that the load on the DC-DC converter is insufficient
+for correct operation it is possible to fit an optional load resistor
+(R3). Do not exceed power rating for the resistor; a 1210
+surface-mount resistor can be fitted which is likely to have a higher
+rating than the 1206 package.
 
 ### ADC
 
