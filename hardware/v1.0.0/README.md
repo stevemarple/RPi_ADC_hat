@@ -94,8 +94,9 @@ provides a digital temperature output.
 For compliance with the HAT specifications an EEPROM must be fitted
 and programmed accordingly. The recommended part is ON Semiconductor
 CAT24C32WI-GT3. Larger capacities, eg ON Semiconductor CAT24C64WI-GT3,
-can be fitted instead. Also fit R7, R8, R9, C18 and JP3. These parts
-can be omitted if desired but the board cannot be called a HAT.
+can be fitted instead. In addition to U7 also fit R7, R8, R9, C18 and
+JP3. These parts can be omitted if desired but the board cannot be
+called a HAT.
 
 
 ### Switched outputs
@@ -137,4 +138,11 @@ connectors. Remember that the 40 pin connector is fitted to the
 underside (solder from top-side). If any link wires are to be
 installed add them last, they provide the ability to test parts of the
 circuit separately.
+
+## Bill of materials (BOM)
+
+BOMs for several different build configurations, including the
+reference design, can be found in the
+directory
+(hardware/v1.0.0/bill_of_materials)[hardware/v1.0.0/bill_of_materials]. include:
 
