@@ -143,6 +143,5 @@ circuit separately.
 
 BOMs for several different build configurations, including the
 reference design, can be found in the
-directory
-(hardware/v1.0.0/bill_of_materials)[hardware/v1.0.0/bill_of_materials]. include:
+[bill_of_materials](bill_of_materials) directory.
 
