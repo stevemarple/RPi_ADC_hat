@@ -78,7 +78,7 @@ instead. Channel 4 is wired as single-ended input only.
 
 If channel 4 of the onboard ADC is not used then the circuit board
 temperature can be monitored by fitting an LM61BIM3 or LM61CIM3
-temperature sensor to U6.
+temperature sensor to U6. Also fit C14 (100n).
 
 
 ### Digital humidity and temperature measurement
