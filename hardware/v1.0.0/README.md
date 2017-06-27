@@ -1,7 +1,7 @@
 # Build instructions for v1.0.0
 
 The PCB design offers a number of options for construction, not all
-parts should fitted. Indeed, to do some could be harmful to the ADC
+parts should fitted. Indeed, to do so could be harmful to the ADC
 HAT and to the Raspberry Pi. Read and understand the build options first.
 
 ## Build options
