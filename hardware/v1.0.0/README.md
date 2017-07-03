@@ -96,7 +96,9 @@ and programmed accordingly. The recommended part is ON Semiconductor
 CAT24C32WI-GT3. Larger capacities, eg ON Semiconductor CAT24C64WI-GT3,
 can be fitted instead. In addition to U7 also fit R7, R8, R9, C18 and
 JP3. These parts can be omitted if desired but the board cannot be
-called a HAT.
+called a HAT. Software and instructions for programming the EEPROM can
+be found in the Raspberry Pi hats repository, see 
+https://github.com/raspberrypi/hats/tree/master/eepromutils.
 
 
 ### Switched outputs
