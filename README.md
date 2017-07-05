@@ -51,5 +51,5 @@ analogue voltage supply.
 ### Switched outputs
 
 Two switched outputs are provided which can be connected to fans,
-motors, relays etc. Flyback diodes are fitted to allow safe switching
+motors, relays etc. Flyback diodes can be fitted to allow safe switching
 of inductive loads. 
